@@ -1,0 +1,125 @@
+.login {
+    background-color: white;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.login__logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    width: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.login__container {
+    max-width: 500px;
+    width:100%;
+    min-height: 400px;
+    height: fit-content;
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.074),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.08),
+    0 12.5px 10px rgba(0, 0, 0, 0.09),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    
+}
+
+.form{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.login__container > h1 {
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+
+.login__container > form > h5 {
+    margin-bottom: 5px;
+}
+
+.login__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+  }
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__signInButton {
+    background:#ede5ca ;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 40px;
+    border:none;
+    
+    
+}
+  .login__signInButton>p{
+    font-size: 18px;
+    font-weight: 200;
+    
+  }
+
+
+
+  .login__signInButton:hover{
+    background:#49cc6d;
+    color:White;
+  }
+
+
+
+  .login__registerButton {
+    border-radius: 2px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    border-color: darkgray;
+    background:#ede5ca;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+  }
+
+  .login__registerButton>p{
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .login__registerButton:hover{
+    background:#49cc6d;
+    color:White;
+  }
+
+
+
+  
+  .contCreator__text{
+    display: flex;
+    font-size: 20px;
+    margin-top: 40px;
+    justify-content: center;
+  }

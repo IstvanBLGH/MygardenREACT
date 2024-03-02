@@ -1,0 +1,8 @@
+.orders {
+    width:100%;
+}
+
+.orders > h1 {
+    margin-left:50px;
+    margin-top: 40px;
+}

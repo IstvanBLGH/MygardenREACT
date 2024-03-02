@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    position: relative;
+    bottom:0;
+    margin-top:700px;
+    background-color: #383535;
+    height:300px;
+    justify-content: center;
+}
+

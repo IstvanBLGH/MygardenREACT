@@ -1,0 +1,6 @@
+.map__container{
+    display: flex;
+    width: 1042px;
+    width:100%;
+    background-color: aliceblue;
+}

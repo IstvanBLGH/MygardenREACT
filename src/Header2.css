@@ -1,0 +1,68 @@
+.Contact{
+  display: flex;
+  flex-direction: column;
+  height:420px;
+  align-items: center;
+
+
+}
+
+.Elements{
+  display: flex;
+  flex-direction: row;
+  height:30%;
+  background-color: white;
+  width:90%;
+  justify-content: left;
+  align-items: center;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 
+      0 2.8px 2.2px rgba(0, 0, 0, 0.074),
+      0 12.7px 5.3px rgba(0, 0, 0, 0.08),
+      0 22.5px 10px rgba(0, 0, 0, 0.09),
+      0 32.3px 17.9px rgba(0, 0, 0, 0.072),
+      0 51.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.icon{
+  display: flex;
+  height: 100%;
+  background-color: aliceblue;
+  width:20%;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  border-radius: 10px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  font-size: 130%;
+}
+
+.text>p{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media(width>1424px){
+  .Elements{
+    display: flex;
+    flex-direction: row;
+    height:30%;
+    background-color: white;
+    width:30%;
+    justify-content: left;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 10px;
+  }
+}
